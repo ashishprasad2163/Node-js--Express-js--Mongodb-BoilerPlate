@@ -5,7 +5,7 @@ import { signToken, userAuth, serializeUser } from '../functions/auth';
 import { forgotToken, resetAuth } from '../functions/resetAuth';
 import { hash, compare } from 'bcryptjs';
 // import { MAILGUN_APIKEY as apikey } from '../config';
-// const DOMAIN = 'sandbox2cdebff9b9d54617b1e42de68ea70349.mailgun.org';
+// const DOMAIN = 'domain.mailgun.org';
 // const mg = mailgun({ apiKey: apikey, domain: DOMAIN });
 import { check, validationResult } from 'express-validator';
 const router = express.Router();
